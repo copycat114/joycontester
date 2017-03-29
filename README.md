@@ -1,6 +1,6 @@
 # Joy-Con Tester
 Test Bluetooth connected Joy-Con controllers through the web browser.
  
-Works in Chrome.
+Works in Google Chrome and Mozilla Firefox.
  
-Does not currently work in Mozilla Firefox, and Internet explorer.
+Does not, nor will it ever, work in Internet explorer.
