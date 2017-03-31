@@ -17557,12 +17557,16 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.gamepad.prototype.exps.LastButton,
 	cr.system_object.prototype.cnds.Compare,
 	cr.plugins_.Browser.prototype.exps.Vendor,
-	cr.system_object.prototype.cnds.Every,
+	cr.system_object.prototype.cnds.EveryTick,
 	cr.system_object.prototype.cnds.Repeat,
 	cr.plugins_.gamepad.prototype.exps.GamepadID,
 	cr.system_object.prototype.exps.loopindex,
 	cr.system_object.prototype.acts.SetVar,
 	cr.system_object.prototype.acts.StopLoop,
-	cr.system_object.prototype.cnds.Else
+	cr.system_object.prototype.cnds.Else,
+	cr.system_object.prototype.cnds.CompareVar,
+	cr.plugins_.Text.prototype.acts.SetText,
+	cr.plugins_.Text.prototype.acts.SetFontColor,
+	cr.system_object.prototype.exps.rgb
 ];};
 
